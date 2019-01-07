@@ -1,0 +1,29 @@
+.portfolioProject {
+    position: relative;
+    width: 100%;
+}
+
+.projectImage {
+	width: 100%;
+	padding: 0;
+}
+
+.projectLink {
+    height: 100%;
+    max-width: inherit;
+}
+
+
+.projectNamePanel {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+	text-align: center;
+	font-size: 1.25vw;
+}
+
+#github-link {
+	text-align: right;
+	font-size: 24px;
+}
