@@ -2,6 +2,10 @@ body {
 	background-image: url("../images/prism.png")
 }
 
+.container {
+	padding-bottom: 75px;
+}
+
 
 #top-bar {
     background-image: url(../images/background.jpg);
