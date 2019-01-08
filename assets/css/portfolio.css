@@ -36,4 +36,9 @@
 
 #github-logo {
 	height: 50px;
+	margin: 5px;
+}
+
+.btn {
+	height: fit-content;
 }

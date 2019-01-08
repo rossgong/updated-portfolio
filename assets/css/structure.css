@@ -6,6 +6,11 @@ body {
 	padding-bottom: 75px;
 }
 
+.social-link {
+	width: 20px;
+	height: 20px;
+}
+
 
 #top-bar {
     background-image: url(../images/background.jpg);
