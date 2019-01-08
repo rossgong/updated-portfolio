@@ -6,8 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/darkly/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/structure.css">
 	<link rel="stylesheet" href="assets/css/portfolio.css">
 
@@ -16,98 +15,88 @@
 
 <body>
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-2 col-sm-3 col-xs-12" id="left-nav">
-				<div class="list-group text-right">
-					<a href="index.html" class="list-group-item list-group-item-action ">
-						About
-					</a>
-					<a href="#" class="list-group-item list-group-item-action active">Portfolio</a>
-				</div>
-			</div>
-
-			<div class="col-lg-7 col-sm-9 col-xs-12">
-				<div class="jumbotron m-2 bg-secondary text-white">
-					<div class="row">
-						<p class="col-9 display-3">Portfolio</p>
-						<a class="col-3" id="github-link" href="https://www.github.com/rossgong/">GitHub</a>
-					</div>
-
-					<div class="row">
-						<div class="col-6">
-							<div class="portfolioProject m-3">
-								<a href="/word-guess/index.html" class="projectLink text-light">
-									<img src="assets/images/raymond.jpeg" class="img-thumbnail projectImage" alt="Hangman" />
-									<div class="projectNamePanel bg-secondary">
-										<p class="lead">Raymond Word Guess</p>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-6">
-							<div class="portfolioProject m-3">
-								<a href="/unit-4-game/index.html" class="projectLink text-light">
-									<img src="assets/images/beat.png" class="img-thumbnail projectImage" alt="RPG" />
-									<div class="projectNamePanel bg-secondary">
-										<p class="lead">Jet Set Radio RPG</p>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-6">
-							<div class="portfolioProject m-3">
-								<a href="/trivia-game/index.html" class="projectLink text-light">
-									<img src="assets/images/trivia.jpg" class="img-thumbnail projectImage" alt="Trivia" />
-									<div class="projectNamePanel bg-secondary">
-										<p class="lead">Trivia</p>
-									</div>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-6">
-							<div class="portfolioProject m-3">
-								<a href="/api-page/index.html" class="projectLink text-light">
-									<img src="assets/images/rpg.jpg" class="img-thumbnail projectImage" alt="API Lookups" />
-									<div class="projectNamePanel bg-secondary">
-										<p class="lead">API Pages</p>
-									</div>
-								</a>
-							</div>
-						</div>
-
-
-					</div>
-
-					<div class="row">
-						<div class="col-6">
-							<div class="portfolioProject m-3">
-								<a href="/RPS-Multiplayer/index.html" class="projectLink text-light">
-									<img src="assets/images/rockpaperscissors.jpg" class="img-thumbnail projectImage" alt="Rock Paper Scissors" />
-									<div class="projectNamePanel bg-secondary">
-										<p class="lead">Rock Paper Scissors</p>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-			<div class="d-none d-lg-block col-lg-3">
-
-			</div>
+	<div class="jumbotron d-flex justify-content-between" id="top-bar">
+		<div class="">
+			<p class="display-4">Ross</p>
+			<h1 class="display-3">Gongaware</h1>
 		</div>
+		<ul class="nav nav-pills text-right flex-column justify-content-center">
+			<li><a class="nav-item nav-link bg-secondary" href="index.html">About</a></li>
+			<li><a class="nav-item nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a></li>
 
+
+		</ul>
+	</div>
+
+	<div class="container">
+		<div class="bg-secondary p-4 rounded">
+			<div class="row">
+				<p class="col-9 display-4">Portfolio</p>
+				<a class="col-3" id="github-link" href="https://www.github.com/rossgong/">GitHub</a>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="portfolioProject m-3">
+						<a href="/word-guess/index.html" class="projectLink text-white">
+							<img src="assets/images/raymond.jpeg" class="img-thumbnail projectImage" alt="Hangman" />
+							<div class="projectNamePanel bg-primary">
+								<p class="lead">Raymond Word Guess</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="portfolioProject m-3">
+						<a href="/unit-4-game/index.html" class="projectLink text-white">
+							<img src="assets/images/beat.png" class="img-thumbnail projectImage" alt="RPG" />
+							<div class="projectNamePanel bg-primary">
+								<p class="lead">Jet Set Radio RPG</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="portfolioProject m-3">
+						<a href="/trivia-game/index.html" class="projectLink text-white">
+							<img src="assets/images/trivia.jpg" class="img-thumbnail projectImage" alt="Trivia" />
+							<div class="projectNamePanel bg-primary">
+								<p class="lead">Trivia</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="portfolioProject m-3">
+						<a href="/api-page/index.html" class="projectLink text-white">
+							<img src="assets/images/rpg.jpg" class="img-thumbnail projectImage" alt="API Lookups" />
+							<div class="projectNamePanel bg-primary">
+								<p class="lead">API Pages</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="portfolioProject m-3">
+						<a href="/RPS-Multiplayer/index.html" class="projectLink text-white">
+							<img src="assets/images/rockpaperscissors.jpg" class="img-thumbnail projectImage" alt="Rock Paper Scissors" />
+							<div class="projectNamePanel bg-primary">
+								<p class="lead">Rock Paper Scissors</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
 	</div>
 
 
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-bottom bg-secondary">
-		<p class="lead m-auto text-light">Copyright &copy; Ross Gongaware</p>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-bottom bg-primary">
+		<p class="lead m-auto">&copy; 2019 Ross Gongaware</p>
 	</nav>
 </body>
 
